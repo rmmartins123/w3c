@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,13 +13,44 @@
             margin-bottom: 100px;
             margin-right: 150px;
             margin-left: 80;
-            background-color: lightblue; 
+            background-color: lightblue;
+        }
+    </style>
+    <style>
+        img.one {
+            height: 0;
+        }
+
+        img.two {
+            height: 200px;
+            width: 200px;
+        }
+
+        div.three {
+            height: 300px;
+            width: 300px;
+            background-color: powderblue;
         }
     </style>
 </head>
+
 <body>
     <h2>Using individual margin properties</h2>
 
-    <div>This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a left margin of 80px.</div>
+    <div>This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a left
+        margin of 80px.</div>
+
+    <h2>Set the height and width of elements</h2>
+
+    <p>Original image:</p>
+    <img class="one" src="/w3c/img/ocean.jpg" width="300" height="300"><br>
+
+    <p>Sized image (200x200 pixels):</p>
+    <img class="two" src="/w3c/img/ocean.jpg" width="300" height="300"><br>
+
+    <p>The height and width of this div element is 300px:</p>
+    <div class="three"></div>
+
 </body>
+
 </html>
