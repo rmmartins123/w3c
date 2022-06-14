@@ -17,6 +17,20 @@
         p.none {border-style: none;}
         p.hidden {border-style: hidden;}
         p.mix {border-style: dashed dotted solid double;}
+
+        #table, td, th {
+            border: 1px solid black;
+        }
+
+        #table1 {
+            border-collapse: separate;
+        }
+
+        #table2 {
+            border-collapse: collapse;
+        }
+
+
     </style>
 </head>
 <body>
@@ -34,6 +48,41 @@
     <p class="none">No border.</p>
     <p class="hidden">A hidden border.</p>
     <p class="mix">A mixed border</p>
+
+    <h2>Border-Colapse separate default</h2>
+    <table id="table1">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+        </tr>
+
+        <tr>
+            <th>Robert</th>
+            <th>Martin</th>
+        </tr>
+
+        <tr>
+            <th>Lois</th>
+            <th>Martin</th>
+        </tr>
+
+    </table>
+
+    <h2>Border-Collapse collapse</h2>
+    <table id="table2">
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+    </tr>
+    <tr>
+        <th>Robert</th>
+        <th>Martin</th>
+    </tr>
+    <tr>
+        <th>Lois</th>
+        <th>Martin</th>
+    </tr>
+    </table>
 
 </body>
 </html>
