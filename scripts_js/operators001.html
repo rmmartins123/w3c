@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scripts com JavaScript</title>
+</head>
+
+<body>
+    <h1>JavaScript Arithmetic</h1>
+    <h2>The += Operator</h2>
+
+    <p id="demo"></p>
+    <script>
+        var x = 10;
+        x += 5;
+        document.getElementById("demo").innerHTML = x;
+    </script>
+
+    <h1>JavaScript Arithmetic</h1>
+    <h2>The + Operator concatenates(adds) strings</h2>
+    <p id="demo1"></p>
+    <script>
+        let text1 = "John";
+        let text2 = "Doe";
+        let text3 = text1 + " " + text2;
+
+        document.getElementById("demo1").innerHTML = text3;
+    </script>
+
+    <h1>JavaScript Arithmetic</h1>
+    <h2>Adding a number and a string, returns a string.</h2>
+
+    <p id="demo2" style="font-size: 25pt;"></p>
+    <script>
+        let a = 5 + 5;
+        let y = "5" + 5;
+        let z = "Hello" + 5;
+
+        document.getElementById("demo2").innerHTML = a + "<br>" + y + "<br>" + z;
+    </script>
+
+    <p id="demo3" style="font-size: 25pt;"></p>
+    <script>
+        let c = 5;
+
+        document.getElementById("demo3").innerHTML = Math.pow(c, 2);
+    </script>
+
+    <p id="ex4" style="font-size: 25pt;"></p>
+
+
+    <p id="ex5" style="font-size: 25pt;"></p>
+
+    <script>
+        let h = -100;
+        h >>= 5;
+
+        document.getElementById("ex5").innerHTML = "Value of h is: " + h;
+    </script>
+
+    <P id="ex06" style="font-size: 25pt;"></P>
+
+    <script>
+        let t = 16 + "Volvo";
+        document.getElementById("ex06").innerHTML = t;
+    </script>
+
+    <p id="ex07" style="font-size: 25pt;"></p>
+
+    <script>
+        let u = 123e5;
+        let i = 123e-5;
+        document.getElementById("ex07").innerHTML = u + "<br>" + i;
+    </script>
+
+</body>
+
+</html>
