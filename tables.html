@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work the tables</title>
+    <style>
+        #customers {
+            font-family: 'Arial';
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,  #customers th {
+            border: solid  #ddd 1px;
+            padding: 8px;
+
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom:12px;
+            text-align: left;
+            background-color: #04aa6d;
+            color: white;
+        }
+
+        #table2, td, th {
+            border: solid red 1px;
+            padding: 15px 15px 25px 25px;
+            
+        }
+
+        #table2 {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #table, th {
+            height: 70px;
+        }
+    </style>
+</head>
+<body>
+    <h1>A Fancy Table</h1>
+
+    <table id="customers">
+
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds </td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Alfreds </td>
+            <td>Maria Anders</td>
+            <td>Suiça</td>
+        </tr>
+        <tr>
+            <td>Alfreds </td>
+            <td>Maria Anders</td>
+            <td>Escocia</td>
+        </tr>
+        <tr>
+            <td>Alfreds </td>
+            <td>Maria Anders</td>
+            <td>Italia</td>
+        </tr>
+        <tr>
+            <td>Alfreds </td>
+            <td>Maria Anders</td>
+            <td>Brasil</td>
+        </tr>
+        <tr>
+            <td>Alfreds </td>
+            <td>Maria Anders</td>
+            <td>Espanha</td>
+        </tr>
+        <tr>
+            <td>Robert</td>
+            <td>Robert martins</td>
+            <td>Dinamarca</td>
+        </tr>
+
+    </table>
+    <h1> Table 2</h1>
+
+    <table id="2">
+        <tr id="3">
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>Peter</td>
+            <td>Griffin</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <th>Lois</th>
+            <th>Swanson</th>
+            <th>$300</th>
+        </tr>
+        <tr>
+            <th>Brown</th>
+            <th>Cleveland</th>
+            <th>$400</th>
+        </tr>
+        <tr>
+            <th>John</th>
+            <th>Griger</th>
+            <th>$677</th>
+        </tr>
+
+    </table>
+</body>
+</html>
